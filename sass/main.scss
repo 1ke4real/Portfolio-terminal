@@ -1,0 +1,63 @@
+@import "./base/bases";
+@import "./utils/variables";
+@import "./components/navbar";
+
+.terminal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 60vh;
+}
+
+
+.container{
+    align-self: center;
+    .link{
+        color: $importantText;
+    }
+}
+
+.entrer_text{
+    animation: 1s blink step-end infinite;
+}
+@keyframes blink{
+    from, to{
+        color: transparent;
+    }
+
+    50%{
+        color: $importantText;
+    }
+}
+
+.window_content{
+    
+    h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: $importantText;
+    }
+    h1{
+        font-size: 24px;
+    }
+    font-size: 16px;
+    padding: 20px;
+    .education_date{
+        font-style: italic;
+        color: $importantText;
+    }
+    .education_text{
+        margin-bottom: 20px;
+    }
+    
+}
+#contact_content{
+    a{
+        color: $importantText;
+    }
+    .secondary_text{
+        color: $importantText;
+    }
+}

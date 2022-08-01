@@ -1,0 +1,14 @@
+{
+  "name": "terminal-portfolio",
+  "version": "1.0.0",
+  "description": "Terminal style portfolio",
+  "main": "app.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "author": "Mike Leman",
+  "license": "ISC",
+  "dependencies": {
+    "winbox": "^0.2.1"
+  }
+}

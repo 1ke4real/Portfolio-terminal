@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200;300;400;700&display=swap");
+body {
+  background-color: #2A2B26;
+  color: white;
+  font-family: "Azeret Mono", monospace;
+  font-size: 18px;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #4C640C;
+  font-size: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.wb-body {
+  background-color: #2A2B26;
+}
+
+.terminal_list {
+  display: flex;
+  margin-right: 15px;
+}
+.terminal_list li a {
+  margin-right: 15px;
+  color: #4C640C;
+  font-size: 14px;
+}
+
+@media screen and (max_width: 700px) {
+  .terminal_list a {
+    flex-direction: column;
+  }
+}
+.terminal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  height: 60vh;
+}
+
+.container {
+  align-self: center;
+}
+.container .link {
+  color: #4C640C;
+}
+
+.entrer_text {
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #4C640C;
+  }
+}
+.window_content {
+  font-size: 16px;
+  padding: 20px;
+}
+.window_content h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #4C640C;
+}
+.window_content h1 {
+  font-size: 24px;
+}
+.window_content .education_date {
+  font-style: italic;
+  color: #4C640C;
+}
+.window_content .education_text {
+  margin-bottom: 20px;
+}
+
+#contact_content a {
+  color: #4C640C;
+}
+#contact_content .secondary_text {
+  color: #4C640C;
+}
+
+/*# sourceMappingURL=style.css.map */

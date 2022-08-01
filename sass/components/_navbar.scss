@@ -1,0 +1,21 @@
+.terminal_list{
+    display: flex;
+    margin-right: 15px;
+    li{
+       
+        
+        a{
+            margin-right: 15px;
+            color: $importantText;
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max_width: 700px) {
+    .terminal_list{
+       a{
+        flex-direction: column;
+       }
+    }
+}

@@ -13,3 +13,6 @@ Hello :v: , I am a person who loves terminals, so I wanted my portfolio to look 
 
 https://1ke4real.github.io/Portfolio-terminal
 
+## Authors
+
+- [Mike Leman](https://github.com/1ke4real)
